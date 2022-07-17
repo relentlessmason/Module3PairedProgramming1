@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-styles.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <section class="top-section-wrapper">
+        <div class="logo-title-wrapper">
+            <img id="logo" src="images/te-pops.png">
+            <h1 id="title">Tech Elevator Popsicles</h1>
+        </div>
+        <div class="button-wrapper">
+            <button type="button" id="button-home"><a href="index.html">HOME</a></button>
+            <button type="button" id="button-store">STORE</button>
+            <button type="button" id="button-contact"><a href="contact-us.html">CONTACT US</a></button>
+        </div>
+    </section>
+
+    <section class="form-section-wrapper">
+        <h2 id="contact-us-header">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name-field" name="name" size="50">
+            <br />
+            
+            <label for="referral">How did you hear of us?</label><br />
+            <select id="referral-field" name="referral">
+                <option value="pm">Popsicle Monthly</option>
+                <option value="te">Tech Elevator</option>
+            </select>
+            <br />
+
+            <label for="faveecolor">What color is your favorite popsicle?</label>
+            <br />
+            <input type="color" id="fave-color" name="favecolor" value="#00afef">
+            <br />
+
+            <label for="comments">Please let us know any comments you have:</label>
+            <br />
+
+            <textarea id="comment-area" name="comments" rows="8" cols="50"></textarea>
+            <br />
+
+            <input type="submit" id="submit-button" value="Submit">
+
+        </form>
+    </section>
+
+    <footer>
+        <p class="footer-text">&copy; Tech Elevator 2020</p>
+    </footer>
+    
+</body>
+</html>
