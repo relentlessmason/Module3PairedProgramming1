@@ -51,9 +51,7 @@ button { /* used for store link in "Get refreshed" section */
     text-transform: uppercase;
 }
 
-button :hover {
-    color:#ffffff;
-}
+                                                                                                                                                                                                                                                                                    
 
 /* --- index layout --- */
 
@@ -81,6 +79,10 @@ body{
     display: flex;
     width: 45%;
     justify-content: space-between;
+}
+
+button :hover {
+    color:#ffffff;
 }
 
 .logo-title-wrapper{
@@ -127,7 +129,6 @@ body{
 .s2h2{
     text-align: center;
 }
-
 
 footer{
     grid-area: footer;
